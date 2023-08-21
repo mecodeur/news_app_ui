@@ -23,9 +23,7 @@ class AppBarIcon extends StatelessWidget {
         shape: BoxShape.circle,
         color: Colors.black12,
       ),
-      child: InkWell(
-          onTap: onTap,
-          child: Icon(icon)),
+      child: InkWell(onTap: onTap, child: Icon(icon)),
     );
   }
 }

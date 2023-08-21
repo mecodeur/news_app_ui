@@ -23,7 +23,8 @@ class NewsDetailsPage extends StatelessWidget {
                 SliverToBoxAdapter(
                   child: Container(
                       color: Colors.white,
-                      child: NewsDetailsBody(newsItem: newsItem)),),
+                      child: NewsDetailsBody(newsItem: newsItem)),
+                ),
               ],
             ),
           ),

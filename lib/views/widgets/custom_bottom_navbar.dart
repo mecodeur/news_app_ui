@@ -57,7 +57,6 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
     ];
   }
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -79,7 +78,7 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-               Text('This is the Drawer'),
+              Text('This is the Drawer'),
             ],
           ),
         ),

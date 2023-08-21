@@ -36,7 +36,6 @@ class NewsItem {
       isFavorite: isFavorite ?? this.isFavorite,
     );
   }
-
 }
 
 List<NewsItem> news = [

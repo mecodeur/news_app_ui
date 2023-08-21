@@ -1,5 +1,4 @@
 import 'package:first_ui_project/models/news_item.dart';
-import 'package:first_ui_project/views/pages/home_page.dart';
 import 'package:first_ui_project/views/widgets/app_bar_icon.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -78,9 +77,7 @@ class NewsDetailsAppBar extends StatelessWidget {
                                   fontWeight: FontWeight.bold),
                           maxLines: 3,
                         )),
-                    const SizedBox(
-                      height: 8.0,
-                    ),
+                    const SizedBox(height: 8.0),
                     Text(
                       '${newsItem.author} - ${newsItem.time}',
                       style: const TextStyle(color: Colors.white),
