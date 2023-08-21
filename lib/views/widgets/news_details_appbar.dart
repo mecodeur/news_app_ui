@@ -64,7 +64,7 @@ class NewsDetailsAppBar extends StatelessWidget {
                   ),
                 )),
             Positioned(
-                bottom: 50,
+                bottom: 30,
                 left: 20,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -110,7 +110,7 @@ class NewsDetailsAppBar extends StatelessWidget {
         ],
       ),
       pinned: true,
-      //collapsedHeight: size.height * 0.1,
+      /*collapsedHeight: size.height * 0.1,
       bottom: const PreferredSize(
         preferredSize: Size.fromHeight(0),
         child: SizedBox(
@@ -125,7 +125,7 @@ class NewsDetailsAppBar extends StatelessWidget {
             ),
           ),
         ),
-      ),
+      ),*/
     );
   }
 }
