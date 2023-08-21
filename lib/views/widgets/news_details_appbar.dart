@@ -45,6 +45,24 @@ class NewsDetailsAppBar extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
             ),
+
+            Positioned(
+                bottom: 0,
+                child: SizedBox(
+                  width: size.width,
+                  height: size.height * 0.30,
+                  child: DecoratedBox(
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                          begin: Alignment.bottomCenter,
+                          end: Alignment.center,
+                          colors: [
+                            Colors.black,
+                            Colors.black.withOpacity(0),
+                          ]),
+                    ),
+                  ),
+                )),
             Positioned(
                 bottom: 50,
                 left: 20,
@@ -73,8 +91,8 @@ class NewsDetailsAppBar extends StatelessWidget {
                               .textTheme
                               .headlineSmall!
                               .copyWith(
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold),
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold),
                           maxLines: 3,
                         )),
                     const SizedBox(height: 8.0),
